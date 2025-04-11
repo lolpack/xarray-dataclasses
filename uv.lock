@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.9, <3.14"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -857,6 +858,21 @@ wheels = [
 ]
 
 [[package]]
+name = "pyrefly"
+version = "0.10.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/ee/1516d58b096fc1cd4a52091544be4bd3de1bb2a22a09babb583ef107944e/pyrefly-0.10.2.tar.gz", hash = "sha256:2f49aed70fb59cb4b15f79687145541ac80ebac66e51949622fb326bd17f2784", size = 851890 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a7/b6/72e4b1fb65ccb42f5093cd5e2e01dafa9c5af42f61bb95070a02e9e26700/pyrefly-0.10.2-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:4faab642fe9f50a64046601e46660947dbf02c5854cf3467fa31cf67e03df1aa", size = 5259788 },
+    { url = "https://files.pythonhosted.org/packages/54/c2/abbf4ed7a7a9e5c5b5d0ae40fc005579c4a2d6a832c8dda2a0edbbd2bf14/pyrefly-0.10.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:24019dbb6c7e26021d115959d68b25dbb44ababa97175bc91f67035b3328878d", size = 4991040 },
+    { url = "https://files.pythonhosted.org/packages/ab/56/d7516e8be1da7cc8dd072843d18840ddad757156f70bae22406eacf3580f/pyrefly-0.10.2-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b3668497661d4a7fb1dc91950dd3df72c7e95709e41ca0abccfd6d398347146e", size = 5731222 },
+    { url = "https://files.pythonhosted.org/packages/6f/13/bbeeee4ebccc7911abcec40fe2ac5706f4d2a88dbb699236b6a9a1e82fae/pyrefly-0.10.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:019ce939bb3cd666d696f393f9df53ed0e7bc9144ecad255e79c70705e48f378", size = 5422797 },
+    { url = "https://files.pythonhosted.org/packages/31/ab/3d3a6de6dfbd7df4b9686c309860229cfbac3cd0e0320168b69d8a2710fb/pyrefly-0.10.2-py3-none-win32.whl", hash = "sha256:7fc2f06c71f6c8ba471cc802383d0896686e9fec9be757af41c120041a558736", size = 4936111 },
+    { url = "https://files.pythonhosted.org/packages/ca/18/2da294ff674f313c4012b09adeabf351ceeb574c90be25ce4cf5225cc0b6/pyrefly-0.10.2-py3-none-win_amd64.whl", hash = "sha256:04dd35f9fb02819ad6cbcd0da3db2dd063595b6b4fb953779cf3ca10f8ba0ff0", size = 5332745 },
+    { url = "https://files.pythonhosted.org/packages/d7/9e/7294621d95596df80ea4bf41efa183a4c38f9449de413af645cb4ee87619/pyrefly-0.10.2-py3-none-win_arm64.whl", hash = "sha256:80d7e239c1b68441d6a6031139fd8809adaf89d4c1ae484b33fa25134022dba9", size = 5080760 },
+]
+
+[[package]]
 name = "pyright"
 version = "1.1.391"
 source = { registry = "https://pypi.org/simple" }
@@ -1261,6 +1277,7 @@ version = "2.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "dataspecs" },
+    { name = "pyrefly" },
     { name = "xarray", version = "2024.7.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
     { name = "xarray", version = "2024.11.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
 ]
@@ -1282,6 +1299,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "dataspecs", specifier = ">=2.0,<3.0" },
+    { name = "pyrefly", specifier = ">=0.10.2" },
     { name = "xarray", specifier = ">=2022.3,<2026.0" },
 ]
 
