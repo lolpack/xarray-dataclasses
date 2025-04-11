@@ -5,6 +5,7 @@
 [![Downloads](https://img.shields.io/pypi/dm/xarray-dataclasses?label=Downloads&color=cornflowerblue&style=flat-square)](https://pepy.tech/project/xarray-dataclasses)
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.4624819-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.4624819)
 [![Tests](https://img.shields.io/github/actions/workflow/status/astropenguin/xarray-dataclasses/tests.yml?label=Tests&style=flat-square)](https://github.com/astropenguin/xarray-dataclasses/actions)
+[![Typing](https://img.shields.io/pypi/types/xarray-dataclasses)](https://pypi.org/project/xarray-dataclasses/)
 
 xarray data creation by data classes
 
